@@ -45,7 +45,17 @@ phoneticLookup("charlie");
 
 //-----------------------------------------------------------------
 
+function checkObj(obj, checkProp) {
 
+    if (obj.hasOwnProperty(checkProp)) {
+        return obj[checkProp];
+    } else {
+        return "Not Found";
+    };
+
+    return "Change Me!";
+    // Only change code above this line
+}
 
 //-----------------------------------------------------------------
 
