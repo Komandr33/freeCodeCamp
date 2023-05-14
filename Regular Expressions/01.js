@@ -16,7 +16,9 @@ let result = petRegex.test(petString);
 
 //----------------------------------------------------------------------------------
 
-
+let myString = "freeCodeCamp";
+let fccRegex = /freecodecamp/i; // Change this line
+let result = fccRegex.test(myString);
 
 //----------------------------------------------------------------------------------
 
