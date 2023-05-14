@@ -1,6 +1,6 @@
 let myString = "Hello, World!";
-let myRegex = /Hello/;
-let result = myRegex.test(myString); // Change this line
+let myRegex = /Hello/;  
+let result = myRegex.test(myString); // Ищет совпадение myRegex в myString с помощью метода .test
 
 //----------------------------------------------------------------------------------
 
@@ -22,7 +22,9 @@ let result = fccRegex.test(myString);
 
 //----------------------------------------------------------------------------------
 
-
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/; // Change this line
+let result = extractStr.match(codingRegex); // Ищет соипадение из codingRegex в extractStr с промощью метода .match
 
 //----------------------------------------------------------------------------------
 
