@@ -7,3 +7,12 @@ let result = quoteSample.match(vowelRegex);
 let quoteSample = "The quick brown fox jumps over the lazy dog.";
 let alphabetRegex = /[a-z]/gi; // знак "-" указывает на диапозон поиска "от" - "до"
 let result = quoteSample.match(alphabetRegex); 
+
+//----------------------------------------------------------------------------
+
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /[h-s2-6]/ig; // с помощью "-" можно задать так же комбинацию интервалов букв и цифр одновременно
+let result = quoteSample.match(myRegex);
+
+//----------------------------------------------------------------------------
+
