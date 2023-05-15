@@ -15,3 +15,7 @@ let unRegex = /.un/; // "." это подстановочный знак, кот
 let result = unRegex.test(exampleStr); 
 
 //----------------------------------------------------------------------------------
+
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/g; // знак "+" позволяет возвращать слитные(повторяющиеся подряд знаки) вместе
+let result = difficultSpelling.match(myRegex); // вернёт ['ss', 'ss']
