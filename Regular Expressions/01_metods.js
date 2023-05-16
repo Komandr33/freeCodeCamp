@@ -5,13 +5,13 @@ let result = myRegex.test(myString); // Ищет совпадение myRegex в
 //----------------------------------------------------------------------------------
 
 let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
-let waldoRegex = /Waldo/; // Change this line
+let waldoRegex = /Waldo/; 
 let result = waldoRegex.test(waldoIsHiding);
 
 //----------------------------------------------------------------------------------
 
 let petString = "James has a pet cat.";
-let petRegex = /dog|cat|bird|fish/; 
+let petRegex = /dog|cat|bird|fish/;     // Знак "|" означает "или"
 let result = petRegex.test(petString);
 
 //----------------------------------------------------------------------------------
