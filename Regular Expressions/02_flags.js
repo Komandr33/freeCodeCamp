@@ -28,6 +28,8 @@ let result = quoteSample.match(nonAlphabetRegex).length;
 
 //----------------------------------------------------------------------------------
 
-
+let movieName = "2001: A Space Odyssey";
+let numRegex = /\d/g;                                 // "[\d]" заменяет собой диапазон "[0-9]" 
+let result = movieName.match(numRegex).length;
 
 //----------------------------------------------------------------------------------
