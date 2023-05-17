@@ -19,3 +19,15 @@ let result = unRegex.test(exampleStr);
 let quoteSample = "The five boxing wizards jump quickly.";
 let alphabetRegexV2 = /[\w]/g;                        // "[\w]" заменяет собой диапазон "[A-Za-z0-9_]" 
 let result = quoteSample.match(alphabetRegexV2).length;
+
+//----------------------------------------------------------------------------------
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/g;                         // "[\W]" заменяет собой диапазон "[^A-Za-z0-9_]" 
+let result = quoteSample.match(nonAlphabetRegex).length;
+
+//----------------------------------------------------------------------------------
+
+
+
+//----------------------------------------------------------------------------------
